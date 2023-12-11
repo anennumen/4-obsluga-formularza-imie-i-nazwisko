@@ -1,9 +1,9 @@
 console.log(`WARSZTAT - Obsługa formularza'Imię i nazwisko'`);
 
 const submitForm = (event) =>{
-    event.preventDeFault();
+    event.preventDefault();
 
-    let fName= document.querySelector('[name="fname');
+    let firstName= document.querySelector('[name="fname');
     let lastName = document.querySelector('[name="lname"]')
 
 console.log(`Imie: ${firstName.value} , Nazwisko; ${lastName.value}`);
